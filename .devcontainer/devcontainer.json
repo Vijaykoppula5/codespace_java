@@ -10,19 +10,13 @@
 			"version": "none",
 			"installMaven": "true",
 			"installGradle": "false"
-		},
-		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {
-			"version": "latest",
-			"jdkVersion": "latest",
-			"jdkDistro": "oracle"
 		}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
-				"vscjava.vscode-java-pack",
-				"GitHub.copilot"
+				"vscjava.vscode-java-pack"
 			]
 		}
 	}
